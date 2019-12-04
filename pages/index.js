@@ -38,7 +38,7 @@ class Home extends React.Component {
 	          </div> : null }   
 
 	{"user" in this.state && this.state.user.name == undefined ?
-			<p> No campground under this name </p>
+			<p> No campground under this name: {this.state.search} </p>
 			:null}
 
         <style jsx>{`
